@@ -1,6 +1,6 @@
 <?php
 
-namespace Icamys\SitemapGenerator;
+namespace EasyX\SitemapGenerator;
 
 interface IConfig
 {

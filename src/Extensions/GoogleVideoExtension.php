@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Icamys\SitemapGenerator\Extensions;
+namespace EasyX\SitemapGenerator\Extensions;
 
 
 use DateTime;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Icamys\SitemapGenerator;
+namespace EasyX\SitemapGenerator;
 
 use BadMethodCallException;
 use DateTime;
-use Icamys\SitemapGenerator\Extensions\GoogleImageExtension;
-use Icamys\SitemapGenerator\Extensions\GoogleVideoExtension;
+use EasyX\SitemapGenerator\Extensions\GoogleImageExtension;
+use EasyX\SitemapGenerator\Extensions\GoogleVideoExtension;
 use InvalidArgumentException;
 use OutOfRangeException;
 use RuntimeException;
@@ -14,7 +14,7 @@ use XMLWriter;
 
 /**
  * Class SitemapGenerator
- * @package Icamys\SitemapGenerator
+ * @package EasyX\SitemapGenerator
  */
 class SitemapGenerator
 {
