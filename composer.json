@@ -1,5 +1,5 @@
 {
-  "name": "icamys/php-sitemap-generator",
+  "name": "easyx/php-sitemap-generator",
   "description": "Simple PHP sitemap generator.",
   "keywords": ["php", "sitemap", "generator", "psr-1", "psr-2", "psr-4"],
   "homepage": "https://github.com/icamys/php-sitemap-generator",
@@ -8,9 +8,9 @@
   "minimum-stability": "stable",
   "authors": [
     {
-      "name": "Dmitrii Prisacari",
-      "email": "prisacari.dmitrii@gmail.com",
-      "homepage": "https://github.com/icamys/"
+      "name": "EasyX",
+      "email": "support@easyx.ru",
+      "homepage": "https://github.com/EasyX-Group/"
     }
   ],
   "require": {
@@ -25,11 +25,11 @@
     "ext-zlib": "*"
   },
   "autoload": {
-    "psr-4": {"Icamys\\SitemapGenerator\\": "src/"}
+    "psr-4": {"EasyX\\SitemapGenerator\\": "src/"}
   },
   "autoload-dev": {
     "psr-0": {
-      "Icamys\\SitemapGenerator\\Tests\\": "test/"
+      "EasyX\\SitemapGenerator\\Tests\\": "test/"
     }
   },
   "require-dev": {
