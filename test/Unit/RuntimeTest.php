@@ -3,7 +3,7 @@
 namespace Unit;
 
 use CurlHandle;
-use Icamys\SitemapGenerator\Runtime;
+use EasyX\SitemapGenerator\Runtime;
 use phpmock\phpunit\PHPMock;
 use phpmock\spy\Spy;
 use PHPUnit\Framework\TestCase;
@@ -96,7 +96,7 @@ class RuntimeTest extends TestCase
      */
     protected function setUp(): void
     {
-        $srcNamespace = "Icamys\SitemapGenerator";
+        $srcNamespace = "EasyX\SitemapGenerator";
 
         $this->curlHandle = curl_init();
         $this->r = new Runtime();

@@ -3,7 +3,7 @@
 namespace Unit\Extensions;
 
 use PHPUnit\Framework\TestCase;
-use function Icamys\SitemapGenerator\Extensions\has_string_keys;
+use function EasyX\SitemapGenerator\Extensions\has_string_keys;
 
 class GoogleImageExtensionTest extends TestCase
 {

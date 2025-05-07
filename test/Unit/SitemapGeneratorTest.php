@@ -4,10 +4,10 @@ namespace Unit;
 
 use BadMethodCallException;
 use DateTime;
-use Icamys\SitemapGenerator\Config;
-use Icamys\SitemapGenerator\FileSystem;
-use Icamys\SitemapGenerator\Runtime;
-use Icamys\SitemapGenerator\SitemapGenerator;
+use EasyX\SitemapGenerator\Config;
+use EasyX\SitemapGenerator\FileSystem;
+use EasyX\SitemapGenerator\Runtime;
+use EasyX\SitemapGenerator\SitemapGenerator;
 use InvalidArgumentException;
 use OutOfRangeException;
 use phpmock\phpunit\PHPMock;

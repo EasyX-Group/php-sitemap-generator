@@ -2,7 +2,7 @@
 
 namespace Unit\Extensions;
 
-use Icamys\SitemapGenerator\Extensions\GoogleVideoExtension;
+use EasyX\SitemapGenerator\Extensions\GoogleVideoExtension;
 use PHPUnit\Framework\TestCase;
 use \InvalidArgumentException;
 

@@ -7,9 +7,9 @@ use DateTime;
 use DOMDocument;
 use DOMXPath;
 use Exception;
-use Icamys\SitemapGenerator\Config;
-use Icamys\SitemapGenerator\Runtime;
-use Icamys\SitemapGenerator\SitemapGenerator;
+use EasyX\SitemapGenerator\Config;
+use EasyX\SitemapGenerator\Runtime;
+use EasyX\SitemapGenerator\SitemapGenerator;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
@@ -1159,7 +1159,7 @@ class SitemapGeneratorTest extends TestCase
         $config->setBaseURL('https://example.com');
         $config->setSaveDirectory(sys_get_temp_dir());
 
-        $class = new ReflectionClass('Icamys\SitemapGenerator\SitemapGenerator');
+        $class = new ReflectionClass('EasyX\SitemapGenerator\SitemapGenerator');
         $method = $class->getMethod('encodeEscapeURL');
         $method->setAccessible(true);
         $obj = new SitemapGenerator($config);
